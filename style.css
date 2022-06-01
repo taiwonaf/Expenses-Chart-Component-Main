@@ -53,7 +53,10 @@ main {
     border-radius: 20px;
     padding: 40px;
     margin-bottom: 50px;
-    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 .footer {
@@ -105,8 +108,9 @@ canvas {
         font-size: 34px;
     }
 
-    .header {
+    header {
         padding: 25px;
+        margin: 100px 0px 0px 0px;
     }
 
     main h1 {
